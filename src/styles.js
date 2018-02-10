@@ -11,7 +11,7 @@ export default StyleSheet.create({
   },
   titleContainer: {
     flexDirection: 'row',
-    padding: 10,
+//     padding: 10,
     justifyContent: 'space-between',
     alignItems: 'center',
   },
