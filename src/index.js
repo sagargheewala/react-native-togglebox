@@ -68,7 +68,7 @@ class ToggleBox extends Component {
           onLayout={this.setMinHeight}
         >
           <View style={styles.titleContainer}>
-            <Text style={styles.label}>{this.props.label}</Text>
+            <Text style={this.props.textStyle}>{this.props.label}</Text>
             {this.props.value ? <Text style={styles.value}>{this.props.value}</Text> : null}
             <Icon
               name={icon}
@@ -94,7 +94,7 @@ ToggleBox.propTypes = {
   children: PropTypes.element.isRequired,
   expanded: PropTypes.bool,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
-  style: stylePropType,
+  style: PropTypes.object,
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 }
 
