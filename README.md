@@ -49,3 +49,5 @@ import ToggleBox from 'react-native-show-hide-toggle-box'
 | `label` | - | Yes | Left label on the left of title |
 | `style` | `{}` | - | Custom styles |
 | `value` | `null` | - | Value on the right title |
+| `textStyle` | `{}` | - | Custom label styles |
+
