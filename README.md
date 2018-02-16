@@ -23,7 +23,7 @@ yarn add react-native-togglebox --save
 ## Use
 
 ```javascript
-import ToggleBox from 'react-native-show-hide-toggle-box'
+import ToggleBox from 'react-native-togglebox'
 
 ...
 
