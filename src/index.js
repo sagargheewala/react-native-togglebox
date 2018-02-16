@@ -16,6 +16,7 @@ class ToggleBox extends Component {
 
     this.state = {
       expanded: this.props.expanded,
+      animation: 0
     }
   }
 
