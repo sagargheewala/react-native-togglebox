@@ -8,6 +8,7 @@ export default StyleSheet.create({
   box: {
     flex: 1,
     overflow: 'hidden',
+    zIndex: 1
   },
   titleContainer: {
     flexDirection: 'row',
